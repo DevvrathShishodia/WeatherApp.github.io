@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    align-items: center;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left ul {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.left ul li {
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0% 21px;
+    font-family: 'Varela Round', sans-serif;
+    text-shadow: 0 1px 5px #2c2c2c99;
+}
+
+.left ul li:hover,
+.left ul li:active,
+.left ul li:focus {
+    color: #efd125;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.center {
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    text-shadow: 0 1px 5px #2c2c2c99;
+    cursor: pointer;
+}
+
+.right {
+    margin-right: 17px;
+
+}
+
+.searchBar {
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    height: 35px;
+    padding-left: 15px;
+    margin-right: 4px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.btn {
+    margin-left: 8px;
+    border-radius: 5px;
+    font-family: 'Varela Round', sans-serif;
+    height: 35px;
+    width: 60px;
+    border: 1px solid #11009E;
+    cursor: pointer;
+  
+
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.heading {
+    cursor: pointer;
+    margin: 60px 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0 1px 5px #2c2c2c99;
+}
+
+.container {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+.card {
+    transition-duration: 300ms;
+    transition-property: transform, box-shadow;
+    transition-timing-function: ease-out;
+    transform: rotate3d(0);
+
+    box-shadow: 0 1px 5px #00000099;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #17c1e8;
+    height: 40vh;
+    width: 25%;
+    margin: 0% 15px;
+    border-radius: 7px;
+}
+
+.card:hover {
+    transition-duration: 150ms;
+    box-shadow: 0 5px 20px 5px #00000044;
+  }
+  
+  .card .glow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;}
+
+.cardHead {
+    /* background-image: linear-gradient(#4ea6ff , #76d6ff); */
+    background-color: rgb(255, 255, 255); /* Fallback color */
+    background-color: rgba(0, 162, 255, 0.695); /* Black w/opacity/see-through */
+    height: 50px;
+    width: 100%;
+}
+
+.info {
+    text-shadow: 0 1px 5px #2c2c2c99;
+    list-style: none;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.info li {
+    text-shadow: 0 1px 5px #2c2c2c99;
+    padding: 5px;
+}
+
+.cardheading {
+    text-shadow: 0 1px 5px #2c2c2c99;
+    margin: 10px;
+    font-size: 36px;
+}
+
+.about {
+    text-shadow: 0 1px 5px #2c2c2c99;
+    margin: 60px 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.mainBox {
+    text-shadow: 0 1px 5px #2c2c2c99;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    text-align: left;
+    height: auto;
+    padding: 40px;
+    margin-bottom: 50px;
+    width: 80%;
+
+}

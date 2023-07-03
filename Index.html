@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <ul>
+                <a href="#Home" style="text-decoration: none    ;" ><li>Home</li></a>
+                <a href="about Us.html" style="text-decoration: none    ;" ><li>About this App</li></a>
+            </ul>
+        </div>
+        <div class="center">
+            <h1>Weather.Ly</h1>
+        </div>
+        <div class="right">
+            <input id="city" class="searchBar" type="search" role="search" placeholder="Search City">
+            <button id="submit" type="submit" class="btn">Search</button>
+        </div>
+    </nav>
+    <div class="heading">
+        <h1>Weather for <span id="cityName"></span></h1>
+    </div>
+    <section id="Home">
+        <div class="container">
+            <div class="card">
+                <nav class="cardHead">
+                    <h2>Humidity Info</h2>
+                </nav>
+                <div class="info">
+                <h3 class="cardheading"><span id="humidity2"></span></h3>
+                <li> Humidity is <span id="humidity"></span> </li>
+                <li>Cloud PCT is <span id="cloud_pct"></span> </li>
+                <li>Feels like <span id="feels_like"></span></li>
+            </div>
+            </div>
+            <div class="card">
+                <nav class="cardHead">
+                    <h2>Temperature</h2>
+                </nav>
+                <div class="info">
+                    <h3 class="cardheading"><span id="temp2"></span></h3>
+                    <li>Temperature is <span id="temp"></span> </li>
+                    <li>Min Temperature is <span id="min_temp"></span> </li>
+                    <li> Max Temperature is <span id="max_temp"></span> </li>
+                </div>
+            </div>
+            <div class="card">
+                <nav class="cardHead">
+                    <h2>Wind Info</h2>
+                </nav>
+                <div class="info">
+                    <h3  class="cardheading"><span id="wind_Speed2"></span></h3>
+                    <li>Wind Speed is <span id="wind_Speed"></span> </li>
+                    <li>Sunrise <span id="sunrise"></span> </li>
+                    <li>Sunset <span id="sunset"></span> </li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="Script.js"></script>
+</body>
+
+</html>
